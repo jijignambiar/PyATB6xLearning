@@ -1,4 +1,5 @@
 # Keyword
+print()
 
 import keyword
 print(keyword.kwlist)

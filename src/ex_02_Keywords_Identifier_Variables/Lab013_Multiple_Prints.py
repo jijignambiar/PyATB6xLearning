@@ -1,0 +1,1 @@
+print("Anu", "Shiju", "emyu")

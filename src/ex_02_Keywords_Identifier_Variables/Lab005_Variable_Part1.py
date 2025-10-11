@@ -1,4 +1,5 @@
 age = 50
-Name= "Jiji"
+Name= "Jijig"
 Name = "Anu"
+
 print (age,Name)
