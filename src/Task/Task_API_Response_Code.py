@@ -8,7 +8,5 @@ Input_Response =int(input("Enter the API response code from your test script : "
 print("Response Code : ", Input_Response)
 if Input_Response ==200:
     print("✅ Passed API Request")
-elif Input_Response == 404:
-     print("❌ Failed API Request")
 else:
-    print("Response Code is Not Valid ")
+     print("❌ Failed API Request")

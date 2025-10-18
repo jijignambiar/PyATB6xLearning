@@ -5,7 +5,10 @@
 
 expected_title = input("Enter the expected title :")
 actual_title = "Dashboard "
-if expected_title == actual_title:
+
+if expected_title.strip().lower() == actual_title.strip().lower():
+    print("Expected :", expected_title)
+    print("Actual :", actual_title)
     print("Test Passed ✅")
 else :
     print("Test Failed ❌")

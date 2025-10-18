@@ -13,7 +13,7 @@ password = input("Enter the password :")
 username_act = "admin"
 password_act = "1234"
 
-if(username == username_act and password == password_act):
+if username == username_act and password == password_act:
     print("Login Successful ✅")
 else:
     print("❌ Invalid Credentials")
